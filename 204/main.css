@@ -67,7 +67,7 @@ a:link {
 	text-decoration: none;
 }
 a:visited {
-	color: #888a2ae;
+	color: #88a2ae;
 	text-decoration: none;
 }
 a:hover {
@@ -77,15 +77,6 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
-#meun ul {
-	margin-top: 0px;
-}
-#meun li {
-	float: left;
-	margin-top: 10px;
-	margin-left: 70px;
-	list-style-type: none;
-}
 #column1 {
 	background-color: #c5d2d8;
 	display: inline;
@@ -94,7 +85,19 @@ a:active {
 	margin-right: 5px;
 	margin-bottom: 10px;
 	margin-left: 5px;
+	float: left;
 }
+#menu ul {
+	margin: 0px;
+}
+#menu li {
+	float: left;
+	margin-top: 10px;
+	margin-left: 70px;
+	list-style-type: none;
+}
+
+
 #column2 {
 	background-color: #E1E9EC;
 	display: inline;
@@ -103,6 +106,7 @@ a:active {
 	margin-right: 5px;
 	margin-bottom: 10px;
 	margin-left: 5px;
+	float: left;
 }
 #column3 {
 	background-color: #C5D2D8;
@@ -112,6 +116,7 @@ a:active {
 	margin-right: 5px;
 	margin-bottom: 10px;
 	margin-left: 5px;
+	float: left;
 }
 #column4 {
 	background-color: #E1E9EC;
@@ -121,6 +126,7 @@ a:active {
 	margin-right: 5px;
 	margin-bottom: 10px;
 	margin-left: 5px;
+	float: left;
 }
 #photo4 {
 	background-image: url(images/polaroid-all.jpg);
